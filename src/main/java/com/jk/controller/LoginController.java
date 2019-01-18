@@ -97,7 +97,7 @@ public class LoginController {
 
     @RequestMapping("toView")
     public String toView(String viewName) {
-
+  System.out.println("服务端加上的一行代码");
         return viewName;
     }
 
