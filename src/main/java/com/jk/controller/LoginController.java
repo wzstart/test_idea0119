@@ -100,6 +100,7 @@ public class LoginController {
         System.out.println("客户端加上的一行代码");
 
   System.out.println("服务端加上的一行代码");
+         System.out.println("服务端加上的二行代码");
         return viewName;
     }
 
