@@ -97,6 +97,7 @@ public class LoginController {
 
     @RequestMapping("toView")
     public String toView(String viewName) {
+        System.out.println("客户端加上的一行代码");
 
         return viewName;
     }
